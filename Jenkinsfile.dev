@@ -4,7 +4,6 @@ pipeline {
 
    stages {
        stage('Build DEV') {
-       agent label:'master'
         steps {
             echo 'Building..'
         }
